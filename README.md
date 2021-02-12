@@ -41,6 +41,8 @@ Offer
 -----
 nginx-plus-ent-v1
 nginx-plus-v1
+nginx_plus_with_nginx_app_protect_developer
+nginx_plus_with_nginx_app_protect_premium
 ```
 
 Then, we will list SKUs for Nginx Plus:
@@ -56,7 +58,6 @@ Result:
 Skus
 ----
 nginx-plus-centos7
-nginx-plus-q1fy17
 nginx-plus-rhel7
 nginx-plus-rhel8
 nginx-plus-ub1604
@@ -77,7 +78,7 @@ Skus
 ----
 nginx-plus-ent-centos7
 nginx-plus-ent-rhel7
-nginx-plus-ent-ub1804
+nginx-plus-ent-un1804
 ```
 
 Reference --> https://medium.com/@gmusumeci/how-to-find-azure-windows-vm-images-for-terraform-or-packer-deployments-f3edaeb42466 
