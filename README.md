@@ -4,31 +4,12 @@ Update the **source_image_reference** on this section of the **linux-vm-main.tf*
 
 ```
 source_image_reference {
-  publisher = var.ubuntu-publisher
-  offer     = var.ubuntu-offer
-  sku       = "18.04-LTS" 
-  version   = "latest"
-}
-```
-
----
-
-# Linux Distros on Azure
-
-Below is a list of Publisher and Offer combinations of endorsed Linux Distros on Azure, use them to list SKUs available.
-
-**Ubuntu Linux Server:**
-
-```
-Publisher = "Canonical"
-Offer = "UbuntuServer"
-```
-
-**Debian:**
-
-```
-Publisher = "credativ"
-Offer = "Debian"
+source_image_reference {
+    publisher = var.nginx-publisher
+    offer     = var.nginx-plus-offer
+    sku       = "nginx-plus-ub1804"
+    version   = "latest"
+  }
 ```
 
 ---
