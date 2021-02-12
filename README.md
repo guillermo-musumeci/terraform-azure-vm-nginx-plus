@@ -89,7 +89,7 @@ Reference --> https://medium.com/@gmusumeci/how-to-find-azure-windows-vm-images-
 
 # Accept Azure Marketplace Terms
 
-Before we execute the Terraform, we need to accept Azure Marketplace Terms:
+Before we execute the Terraform, we need to accept Azure Marketplace Terms, using the following PowerShell command:
 
 ```
 Get-AzMarketplaceTerms -Publisher "nginxinc" -Product "nginx-plus-v1" -Name "nginx-plus-ub1804" | Set-AzMarketplaceTerms -Accept
