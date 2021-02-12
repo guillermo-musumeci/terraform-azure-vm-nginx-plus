@@ -4,7 +4,6 @@ Update the **source_image_reference** on this section of the **linux-vm-main.tf*
 
 ```
 source_image_reference {
-source_image_reference {
     publisher = var.nginx-publisher
     offer     = var.nginx-plus-offer
     sku       = "nginx-plus-ub1804"
