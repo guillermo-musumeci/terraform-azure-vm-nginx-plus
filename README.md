@@ -1,5 +1,7 @@
 # Deploying an Azure VM with Nginx Plus Or Enterprise using Terraform
 
+Blog --> https://gmusumeci.medium.com/how-to-deploy-a-linux-vm-with-nginx-plus-or-enterprise-in-azure-using-terraform-6f7b5f25b5ab
+
 Update the **source_image_reference** on this section of the **linux-vm-main.tf** file, to configure the Linux distro and version of Nginx.
 
 ```
@@ -82,18 +84,6 @@ nginx-plus-ent-un1804
 ```
 
 Reference --> https://medium.com/@gmusumeci/how-to-find-azure-windows-vm-images-for-terraform-or-packer-deployments-f3edaeb42466 
-
----
-
-# VM Types Supported:
-
-Currently, Nginx Plus is only support in the following Azure VM types: 
-
-* **Standard_A1**
-
-* **Standard_A2**
-
-* **Standard_A3**
 
 ---
 
