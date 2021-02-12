@@ -1,4 +1,4 @@
-# Deploying an Azure VM with Nginx Plus using Terraform
+# Deploying an Azure VM with Nginx Plus Or Enterprise using Terraform
 
 Update the **source_image_reference** on this section of the **linux-vm-main.tf** file, to configure the Linux distro and version of Nginx.
 
